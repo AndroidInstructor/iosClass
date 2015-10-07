@@ -6,13 +6,13 @@
 //  Copyright © 2015 myorg. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainViewController.h"
 
-@interface ViewController ()
+@interface MainViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,4 +24,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)addProtein:(id)sender {
+    total += self.amountText.text.intValue;
+    self.totalLabel.text = [NSString stringWithFormat:@"%d", total];
+}
+-(IBAction)unwindToMain:(UIStoryboardSegue *)segue{
+    
+}
 @end
