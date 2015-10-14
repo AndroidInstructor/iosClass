@@ -10,6 +10,7 @@
 
 @interface MainViewController : UIViewController {
     int total;
+    NSMutableArray *amountHistory;
 }
 @property (weak, nonatomic) IBOutlet UILabel *totalLabel;
 @property (weak, nonatomic) IBOutlet UILabel *goalLabel;

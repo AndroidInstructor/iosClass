@@ -14,8 +14,25 @@
 
 @implementation HistoryViewController
 
+-(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if(self)
+    {
+        //custom initialization
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSMutableString * text = [[NSMutableString alloc]init];
+    for(NSNumber *n in history){
+        [text appendFormat:@"%@\n", n];
+    }
+    
+    self.historyLabel.text = text;
     // Do any additional setup after loading the view.
 }
 
@@ -24,6 +41,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)setHistory:(NSMutableArray *)h{
+    history = h;
+}
 /*
 #pragma mark - Navigation
 
