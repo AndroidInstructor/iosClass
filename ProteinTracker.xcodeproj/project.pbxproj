@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		234243A11BD71D9000A25BDB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2342439F1BD7175900A25BDB /* Settings.bundle */; settings = {ASSET_TAGS = (); }; };
 		2351857B1BC4948F0047EFA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2351857A1BC4948F0047EFA5 /* main.m */; };
 		2351857E1BC4948F0047EFA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2351857D1BC4948F0047EFA5 /* AppDelegate.m */; };
 		235185811BC4948F0047EFA5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 235185801BC4948F0047EFA5 /* MainViewController.m */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2342439F1BD7175900A25BDB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		235185761BC4948F0047EFA5 /* ProteinTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProteinTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2351857A1BC4948F0047EFA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2351857C1BC4948F0047EFA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 		235185781BC4948F0047EFA5 /* ProteinTracker */ = {
 			isa = PBXGroup;
 			children = (
+				2342439F1BD7175900A25BDB /* Settings.bundle */,
 				235185931BC4AA4B0047EFA5 /* HistoryViewController.h */,
 				235185941BC4AA4B0047EFA5 /* HistoryViewController.m */,
 				2351857C1BC4948F0047EFA5 /* AppDelegate.h */,
@@ -141,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				234243A11BD71D9000A25BDB /* Settings.bundle in Resources */,
 				235185891BC4948F0047EFA5 /* LaunchScreen.storyboard in Resources */,
 				235185861BC4948F0047EFA5 /* Assets.xcassets in Resources */,
 				235185841BC4948F0047EFA5 /* Main.storyboard in Resources */,
@@ -304,6 +308,7 @@
 				2351858F1BC4948F0047EFA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

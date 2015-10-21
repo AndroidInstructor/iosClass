@@ -18,5 +18,6 @@
 
 - (IBAction)addProtein:(id)sender;
 - (IBAction)unwindToMain:(UIStoryboardSegue*) segue;
+-(void)goalChanged:(NSNotification *)notification;
 @end
 
